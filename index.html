@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cashify</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="app-head">
+        <h1>Cashify</h1>
+        <h2>Your Cashing Need Digitized</h2>
+      </div>
+      <div class="app-body">
+        <div class="app-input">
+          <form>
+            <input
+              class="inputTxt"
+              type="text"
+              placeholder="Enter Bill Amount"
+              id="billAmt"
+            />
+            <p
+              id="billAmtWarn"
+              style="visibility: hidden !important; color: red"
+            >
+              Please enter amount greater than 0
+            </p>
+            <input
+              class="inputTxt"
+              type="text"
+              placeholder="Enter Cash Given"
+              id="cash"
+              style="visibility: hidden !important"
+            />
+            <p
+              id="cashWarn"
+              style="visibility: hidden !important; color: green"
+            >
+              Please give cash greater than amount
+            </p>
+            <button
+              id="getChangeBtn"
+              type="submit"
+              style="visibility: hidden !important"
+            >
+              Get Change
+            </button>
+          </form>
+        </div>
+        <div class="app-output">
+          <div>
+            <p class="amtName">Rs.2000</p>
+            <span id="c1" class="count">0</span>
+          </div>
+          <div>
+            <p class="amtName">Rs.500</p>
+            <span id="c2" class="count">0</span>
+          </div>
+          <div>
+            <p class="amtName">Rs.100</p>
+            <span id="c3" class="count">0</span>
+          </div>
+          <div>
+            <p class="amtName">Rs.20</p>
+            <span id="c4" class="count">0</span>
+          </div>
+          <div>
+            <p class="amtName">Rs.10</p>
+            <span id="c5" class="count">0</span>
+          </div>
+          <div>
+            <p class="amtName">Rs.5</p>
+            <span id="c6" class="count">0</span>
+          </div>
+          <div>
+            <p class="amtName">Rs.1</p>
+            <span id="c7" class="count">0</span>
+          </div>
+        </div>
+      </div>
+      <div class="app-footer"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

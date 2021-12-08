@@ -1,0 +1,93 @@
+.container {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  box-shadow: 5px 12px 20px 22px whitesmoke;
+  color: #4ba4a5;
+  font-size: large;
+}
+
+.container h2 {
+  color: #17797d;
+}
+
+.app-body {
+  box-shadow: 3px 3px 3px 3px lightslategray;
+  padding-bottom: 20px;
+}
+
+.app-body > .app-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 40vh;
+}
+
+.inputTxt {
+  border: none;
+  border-bottom: 2px solid grey;
+  font-size: large;
+}
+
+.inputTxt:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.inputTxt#billAmt {
+  color: red;
+}
+
+.inputTxt#cash {
+  color: green;
+}
+
+.inputTxt#billAmt:focus {
+  border-bottom: 2px solid red;
+  color: red;
+}
+
+.inputTxt#cash:focus {
+  border-bottom: 2px solid green;
+  color: green;
+}
+
+.app-output {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.app-output > div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 10px 10px grey;
+}
+
+.app-output > div:hover {
+  width: 101px;
+  height: 101px;
+  box-shadow: 5px 10px 10px black;
+}
+
+.app-output > div > .count {
+  /* background-color: hotpink; */
+  padding: 25px;
+  border-radius: 50%;
+  margin-top: 20px;
+  color: black;
+}
+
+.amtName {
+  color: black;
+  font-size: medium;
+  font-weight: 700;
+  margin: 0 0 25px 0;
+  padding: 5px;
+}
