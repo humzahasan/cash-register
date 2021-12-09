@@ -68,6 +68,7 @@
   padding: 10px;
   margin: 10px;
   box-shadow: 5px 10px 10px grey;
+  background-color: black;
 }
 
 .app-output > div:hover {
@@ -77,15 +78,17 @@
 }
 
 .app-output > div > .count {
-  /* background-color: hotpink; */
+  background-color: white;
   padding: 25px;
   border-radius: 50%;
   margin-top: 20px;
   color: black;
+  font-size: larger;
+  font-weight: 700;
 }
 
 .amtName {
-  color: black;
+  color: white;
   font-size: medium;
   font-weight: 700;
   margin: 0 0 25px 0;
